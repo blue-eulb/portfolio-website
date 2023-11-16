@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+.section {
+    border: 1px solid;
+    height: 932px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+.img1 {
+    height: 300px;
+}
+.img2 {
+    height: 250px;
+}
+.img3 {
+    height: 250px;
+}
+.img4 {
+    height: 250px;
+}
+.img5 {
+    height: 200px;
+}
+p {
+    width: 120px;
+    background-color: white;
+}
+
+#one {
+    background-color: aqua;
+}
+#two {
+    background-color: aquamarine;
+}
+#three {
+    background-color: indigo;
+}
+#four {
+    background-color: sandybrown;
+}
+#five {
+    background-color: salmon;
+}
+
+.nav {
+    position: fixed;
+    top: 30%;
+    right: 1%;
+    border: 1px solid;
+    height: 380px;
+    width: 200px;
+    background-color: rgb(255,255,255, 0.8);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-buttons {
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(255, 178, 178);
+    padding: 20px;
+    transition: transform .3s ease;
+}
+
+.nav > * {
+    width: 80%;
+}
+
+.nav-buttons:hover {
+    transform: scale(1.2);
+}
