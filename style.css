@@ -114,7 +114,10 @@ button > img {
         display: none;
     }
     .nav {
+        border-radius: 25px;
+        height: 320px;
         width: 80px;
+        justify-content: space-around;
     }
     
     .nav-btn {
